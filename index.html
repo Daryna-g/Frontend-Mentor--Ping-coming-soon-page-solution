@@ -8,9 +8,10 @@
 
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap" rel="stylesheet" />
 
 	<title>Frontend Mentor | Ping coming soon page</title>
-
+	<script src="https://kit.fontawesome.com/70f5894254.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,18 +19,18 @@
 		<a aria-label="Ping's homepage" href="#"><img src="images/logo.svg" alt="Ping's logo" /></a>
 	</header>
 	<main class="page">
-		<section>
+		<section class="section">
 			<h1>We are launching <span>soon!</span></h1>
-			<p class="description">Subscribe and get notified</p>
+			<p class="text">Subscribe and get notified</p>
 			<div class="form-container">
-				<form id="emailForm" novalidate>
+				<form id="emailForm" class="email-form" novalidate>
 					<div class="input--error">
 						<input type="email" id="emailInput" placeholder="Your email address…"
 							aria-describedby="errorMessage" />
 						<p class="error-message" id="errorMessage" role="alert"></p>
 					</div>
 
-					<button id="notify-btn" type="submit">Notify Me</button>
+					<button id="notify-btn" class="notify-btn" type="submit">Notify Me</button>
 				</form>
 			</div>
 		</section>
@@ -40,15 +41,19 @@
 
 	<footer>
 		<div class="icons">
-			<a aria-label="Ping's facebook profile" href="#">
-				<img class="icon" src="images/facebook.svg" alt="Icon of facebook" />
+			<!-- <a aria-label="Ping's facebook profile" href="#">
+				<i class="fa-brands fa-facebook-f"></i>
 			</a>
 			<a aria-label="Ping's twitter profile" href="#">
-				<img class="icon" src="images/twitter.svg" alt="Icon of twitter" />
+				<i class="fa-brands fa-twitter"></i>
 			</a>
 			<a aria-label="Ping's instagram profile" href="#">
-				<img class="icon" src="images/instagram.svg" alt="Icon of instagram" />
-			</a>
+				<i class="fa-brands fa-instagram"></i>
+			</a> -->
+			<i class="fa-brands fa-facebook-f"></i>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-instagram"></i>
+
 		</div>
 		<div>
 			<p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
