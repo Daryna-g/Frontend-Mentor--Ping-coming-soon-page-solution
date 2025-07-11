@@ -91,13 +91,13 @@ h1 span {
 	margin-bottom: 4.5rem;
 }
 
-#emailForm {
+.email-form {
 	display: grid;
-	grid-template-rows: repeat(2, 2fr);
+	/* grid-template-rows: repeat(2, 2fr); */
 	gap: 0.875rem;
 }
  
-#emailInput {
+.email-input {
 	border-radius: 1.75rem;
 	border: 1px solid var(--Pale-Blue);
 	background: #fff;
@@ -109,7 +109,7 @@ h1 span {
 	line-height: 167%;
 }
  
-#notify-btn {
+.notify-btn {
 	border-radius: 1.75rem;
 	background: var(--Primary-Blue);
 	box-shadow: 0 0.3125rem 0.625rem 0.125rem rgba(76, 123, 243, 0.23);
@@ -122,10 +122,9 @@ h1 span {
 	cursor: pointer;
 }
  
-#notify-btn:hover {
+.notify-btn:hover {
 	opacity: 0.8;
 }
- 
 
 .input--error {
 	display: flex;
@@ -142,20 +141,22 @@ h1 span {
 	line-height: 200%;
 	letter-spacing: 0.0078125em;
 }
+.email-input.error-input {
+	border: 1px solid var(--Light-Red);
+}
 
 .illustration {
 	margin-bottom: 120px;
 }
- 
 .illustration img {
 	max-width: 40rem;
 }
 .icons {
 	display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.731875rem;
-  margin-bottom: 1.5625rem;
+	align-items: center;
+	justify-content: center;
+	gap: 0.731875rem;
+	margin-bottom: 1.5625rem;
 }
 
 .icons i {
@@ -182,15 +183,15 @@ h1 span {
 }
 
 @media screen and (min-width: 780px) {
-	#emailForm {
+	.email-form {
 		grid-template-columns: 6fr 3fr;
 		grid-template-rows: none;
 		gap: 1rem;
 	 }
-	#emailInput {
+	.email-input {
 		padding: 1.125rem 1.875rem;
 	}
-	#notify-btn {
+	.notify-btn {
 		font-size: 1rem;
 		line-height: 1.1875rem;
 		/* padding-block: 1.125rem; */
@@ -230,12 +231,12 @@ h1 span {
 	  margin-bottom: 5.875rem;
 	}
  
-	#emailInput {
+	.email-input {
 		font-size: 1rem;
 		line-height: 125%;
 		padding: 1.125rem 1.875rem;
 	}
-	#notify-btn {
+	.notify-btn {
 		font-size: 1rem;
 		line-height: 1.1875rem;
 		padding-block: 1.125rem;
