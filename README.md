@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-5kpi55KVGA)
-- Live Site URL: [Add live site URL here](https://daryna-g.github.io/Frontend-Mentor--Interactive-rating-component-solution/)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/ping-coming-soon-page-solution-Ot5woVaAql)
+- Live Site URL: [Add live site URL here](https://daryna-g.github.io/Frontend-Mentor--Ping-coming-soon-page-solution/)
 
 ## My process
 
