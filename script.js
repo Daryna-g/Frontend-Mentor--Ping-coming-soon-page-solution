@@ -10,7 +10,7 @@ document
 		if (!email) {
 			errorMessage.style.display = "block";
 			errorMessage.textContent =
-				"Please fill in your email address";
+				"Whoops! It looks like you forgot to add your email";
 			emailInput.classList.add("error-input");
 			emailInput.placeholder = "example@email.com";
 		} else if (!emailRegex.test(email)) {
